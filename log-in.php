@@ -22,7 +22,7 @@
                 <!-- login form start -->
                 <form method="post" action="">
                     <div class="mb-3">
-                        <label class="form-label">UserName :</label>
+                        <label class="form-label">User Name :</label>
                         <input type="text" class="form-control" placeholder="Enter username">
                     </div>
 

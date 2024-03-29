@@ -1,3 +1,13 @@
+<?php 
+    require_once'./config.php';
+
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,24 +21,30 @@
 <body>
 
     <?php require_once 'components/_nav.php' ?>
-    <div class="container md">
+    <div class="container">
         <div class="card">
             <div class="card-body">
 
                 <u>
-                    <h1 style="text-align:center">Sign In Form</h1>
+                    <h1 style="text-align:center">Signup to your account</h1>
                 </u>
 
                 <!-- login form start -->
                 <form method="post" action="">
-                    <div class="mb-3">
-                        <label class="form-label">UserName :</label>
-                        <input type="text" class="form-control" placeholder="Enter username">
+                    <div class="mb-3 col-md-6">
+                        <label class="form-label">User Name :</label>
+                        <input type="text" class="form-control" name="username" placeholder="Enter username">
                     </div>
 
-                    <div class="mb-3">
+                    <div class="mb-3 col-md-6">
                         <label class="form-label">Password :</label>
-                        <input type="text" class="form-control" placeholder="Enter password">
+                        <input type="text" class="form-control" name="password" placeholder="Enter password">
+                    </div>
+
+                    <div class="mb-3 col-md-6">
+                        <label class="form-label">Confirm Password :</label>
+                        <input type="text" class="form-control" name="confirm-password" placeholder="Enter password">
+                        <small class="form-text text-muted">Make sure to type the same password</small>
                     </div>
 
                     <button type="submit" class="btn btn-outline-success">Sign In</button>
