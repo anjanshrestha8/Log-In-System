@@ -18,13 +18,13 @@
                 <div class="container text-center">
                     <div class="row">
                         <div class="col">
-                            <form action="./sign-in.php" method="post">
+                            <form action="./sign-in-form.php" method="post">
                                 <button type="submit" class="btn btn-success">Sign In</button><br>
                                 <small class="form-text text-muted">If you don't have account!</small>
                             </form>
                         </div>
                         <div class="col">
-                            <form action="./log-in.php" method="post">
+                            <form action="./log-in-form.php" method="post">
                                 <button type="submit" class="btn btn-outline-success">Log In</button><br>
                                 <small class="form-text text-muted">I already have account!</small>
 
